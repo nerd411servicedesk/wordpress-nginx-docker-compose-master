@@ -1,0 +1,9 @@
+{
+    "files.autoGuessEncoding": true,
+    "scm.alwaysShowProviders": true,
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.templateFilter": "All",
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.autofetch": true,
+    "git.fetchOnPull": true
+}

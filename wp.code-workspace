@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"appService.enableDetectors": true,
+		"planner.azure-devops.organization": "xxxnerd",
+		"planner.azure-devops.project": "wpdev",
+		"git.allowForcePush": true
+	}
+}

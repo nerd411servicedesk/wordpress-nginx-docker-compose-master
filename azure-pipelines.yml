@@ -1,0 +1,10 @@
+# Docker
+- task: DockerCompose@0
+  inputs:
+    containerregistrytype: 'Azure Container Registry'
+    azureSubscription: 'Pay-As-You-Go(deb4bafb-6aed-4aeb-9341-7be02d25595d)'
+    azureContainerRegistry: '{"loginServer":"wpdev.azurecr.io", "id" : "/subscriptions/deb4bafb-6aed-4aeb-9341-7be02d25595d/resourceGroups/WPpoc/providers/Microsoft.ContainerRegistry/registries/wpdev"}'
+    dockerComposeFile: '**/docker-compose.yml'
+    action: 'Run a Docker Compose command'
+    dockerComposeCommand: 'up'
+    arguments: '-d --force-recreate --build'
